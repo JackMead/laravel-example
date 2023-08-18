@@ -8,3 +8,5 @@ The project is generated using composer from the standard Laravel example projec
 * Run `docker compose up --build`
 
 Note that with the current setup, the DB will be lost & recreated each time you run the containers. The `docker-compose.yml` file includes a note on how to persist that when running the project locally.
+
+PHP My Admin will also be run alongside the app, and can be visited at http://localhost:8088 and you can log in with the root credentials: `root` and `my-secret-password`
